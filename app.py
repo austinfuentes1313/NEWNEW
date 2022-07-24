@@ -2,6 +2,7 @@ import os
 
 from flask import Flask
 from flask_restful import Api
+from collections.abc import Mapping
 from flask_jwt import JWT
 
 from security import authenticate, identity
